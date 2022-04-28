@@ -1,6 +1,6 @@
 # ts-template
 
-Typescript template project
+Telegram bot template project using typescript, telegraf, jasmine and dotenv
 
 ## Features
 
@@ -11,6 +11,7 @@ Typescript template project
 - GitHub actions pipeline for `npm run test`
 
 ## Prerequisites
+
 - [Node.js](https://nodejs.org/en/)
 - [Git](https://git-scm.com/)
 
@@ -45,5 +46,5 @@ Typescript template project
 2. Update `LICENSE` (MIT by default)
 
 3. Replace `README.md`
- 
+
 4. Write your code with `index.ts` as an entry point

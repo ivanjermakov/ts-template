@@ -1,11 +1,11 @@
 import * as dotenv from 'dotenv'
 
 export interface Config {
-    var?: string
+    botToken?: string
 }
 
 dotenv.config()
 
 export const config: Config = {
-    var: process.env.VAR
+    botToken: process.env.BOT_TOKEN
 }
