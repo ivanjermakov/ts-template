@@ -19,7 +19,7 @@ Telegram bot template project using typescript, telegraf, jasmine and dotenv
 
 1. Clone the project
    ```
-   git clone https://github.com/ivanjermakov/ts-template <project-name>
+   git clone -b telegraf https://github.com/ivanjermakov/ts-template <project-name>
    cd <project-name>
    ```
 
