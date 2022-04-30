@@ -51,17 +51,10 @@ Typescript template project for working with PostgreSQL using Prisma
 
 ## Initial customization
 
-1. Update `package.json`
-   ```
-   ...
-   "name": "<project-name>",
-   ...
-   "description": "<project-description>",
-   ...
-   ```
+1. Update all `/<.*>/` templates across the project (e.g. `<project-name>` or `<password>`)
 
-2. Update `LICENSE` (MIT by default)
+3. Update `LICENSE` (MIT by default)
 
-3. Replace `README.md`
+4. Replace `README.md`
  
-4. Write your code with `index.ts` as an entry point
+5. Write your code with `index.ts` as an entry point

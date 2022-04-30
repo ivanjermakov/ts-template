@@ -1,7 +1,7 @@
 {
-  "name": "ts-template",
+  "name": "<project-name>",
   "version": "0.1.0",
-  "description": "Typescript template project",
+  "description": "<project-description>",
   "main": "dist/index.js",
   "scripts": {
     "start": "cross-env NODE_ENV=dev ts-node src/index.ts",
