@@ -1,11 +1,11 @@
 import * as dotenv from 'dotenv'
 
 export interface Config {
-    var?: string
+    dbUri?: string
 }
 
 dotenv.config()
 
 export const config: Config = {
-    var: process.env.VAR
+    dbUri: process.env.DB_URI
 }

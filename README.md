@@ -1,6 +1,24 @@
 # ts-template
 
-Typescript template project
+Typescript template project for working with PostgreSQL using Prisma
+
+## Usage
+```
+> set('a', 'hello')
+{
+  id: 2,
+  createdAt: 2022-04-30T10:45:07.426Z,
+  key: 'a',
+  value: 'hello'
+}
+> get('a')
+'hello'
+> del('a')
+'deleted'
+> get('a')
+'not found'
+> 
+```
 
 ## Features
 
